@@ -1,0 +1,344 @@
+body{
+  background-color: rgb(34, 34, 73);
+  color: white;
+  font-weight: 300;
+}
+/*CONNEXION*/
+.conexionnH1{
+  padding-top: 1%;
+  text-align: center;
+  padding-bottom: 2%;
+
+}
+.form1_1connect{
+    text-align: center;
+    color: white;
+}
+#form1 #exampleInputPassword1{
+  width: 50%;
+ 
+}
+#form1 #exampleInputEmail1{
+  width: 50%;
+  /*margin-left: 25%;*/
+}
+#form1 #exampleCheck1{
+  /*margin-left: 25%;*/
+}
+#form1 #button1{
+  /*margin-left: 25%;*/
+}
+#form1 {
+  text-align: 25%;
+  margin-left: 35%;
+  color: white;
+
+}
+
+/*INSCRIPTION CSS*/
+#form2{
+  padding-left: 30%;
+  color: white;
+
+}
+#form2 input{
+  width: 70%;
+}
+.form2_inscription{
+   text-align: center;
+   color: white;
+}
+.form2_section{ 
+  padding-right: 0;
+  margin-right: 0;
+  size: 30%;
+}
+.form2_section img{
+  height: 10%;
+  width: 10%;
+}
+#inscription{
+  color:white;
+
+}
+
+
+/*LE MENU*/
+#img_div{
+  background-image: url("https://th.bing.com/th/id/R.2de2b5dd9e9615e40c8841d20fbf3deb?rik=SZqCelLyVDYe9A&riu=http%3a%2f%2fsites.esigelec.fr%2fNewsletter%2fESIGELEC20%2frecherche700200.jpg&ehk=lzWreLTDQUj%2bFw4Y%2fkcJIhZrev6%2b0pgJyAY%2ftNPKcAI%3d&risl=&pid=ImgRaw&r=0") ;
+  height: 150px;
+  border-image-repeat: none;
+  background-repeat: no-repeat;
+  object-fit: cover;
+  width: 100%;
+  background-size: 100%  200px;
+ /* text-align: center;*/
+}
+#different_menu_45{
+font-weight: 400;
+color: red;
+letter-spacing: 8px;
+}
+#img_div h1{
+  padding-top: 15px;
+  font-size: 80px;
+ /* text-align: center;*/
+  color: rgb(249, 249, 250);
+  display: flex;
+}
+#img_div img{
+  width: 50%;
+  height: 6%;
+  padding-top: 40px;
+}
+
+#menu_nav_bar{
+  background-color: rgb(105, 99, 99);
+  height: 3%
+}
+.menu_nav_bar_esigresto{
+  color:red;
+  font-weight: bold;
+  font-size: 20px;
+  text-decoration: none;
+  display: inline;
+  display: flex;
+  text-align: center;
+  margin-left: 45%;
+  padding: 0%;
+}
+.menu_nav_bar2_esigresto  a{
+  display: flex;
+  display: inline-block;
+  text-decoration: none;
+  margin-right: 0%;
+  color: lightgrey;
+  font-weight: bold;
+  padding: 0 0 0 0;
+  border: skyblue outset;
+  border-radius: 10% ;
+  
+}
+.menu_nav_bar4_esigresto{
+  display: flex;
+  display: inline-block;
+  text-decoration: none;
+  margin-right: 0%;
+  color: lightgrey;
+  font-weight: bold;
+  margin-left: 87%;
+  border: skyblue outset;
+  border-radius: 10% ;
+}
+.menu_nav_bar3_esigresto a{
+  color: grey;
+  color: lightgrey;
+  text-decoration: none;
+  margin-left: 46%;
+  padding-right: 0;
+  font-weight: bold;
+  border: skyblue outset;
+  border-radius: 10% ;
+}
+/*LE FOOTER 
+
+
+*/
+.footer-dark {
+padding:50px 0;
+color:#f0f9ff;
+border: outset rgb(18, 18, 44);
+margin-top: 2%;
+}
+
+.footer-dark h3 {
+margin-top:0;
+margin-bottom:12px;
+font-weight:bold;
+font-size:16px;
+}
+
+.footer-dark ul {
+padding:0;
+list-style:none;
+line-height:1.6;
+font-size:14px;
+margin-bottom:0;
+}
+
+.footer-dark ul a {
+color:inherit;
+text-decoration:none;
+opacity:0.6;
+}
+
+.footer-dark ul a:hover {
+opacity:0.8;
+}
+
+@media (max-width:767px) {
+.footer-dark .item:not(.social) {
+  text-align:center;
+  padding-bottom:20px;
+}
+}
+
+.footer-dark .item.text {
+margin-bottom:26px;
+}
+
+@media (max-width:767px) {
+.footer-dark .item.text {
+  margin-bottom:0;
+}
+}
+
+.footer-dark .item.text p {
+opacity:1;
+margin-bottom:0;
+}
+
+.footer-dark .item.social {
+text-align:center;
+}
+
+@media (max-width:991px) {
+.footer-dark .item.social {
+  text-align:center;
+  margin-top:20px;
+}
+}
+
+.footer-dark .item.social > a {
+font-size:20px;
+width:36px;
+height:36px;
+line-height:36px;
+display:inline-block;
+text-align:center;
+border-radius:50%;
+box-shadow:0 0 0 1px rgba(255,255,255,0.4);
+margin:0 4px;
+color:#fff;
+opacity:1;
+}
+
+.footer-dark .item.social > a:hover {
+opacity:1;
+background-color: aquamarine;
+color: red;
+}
+
+.footer-dark .copyright {
+text-align:center;
+padding-top:24px;
+opacity:0.3;
+font-size:13px;
+margin-bottom:0;
+}
+/*ACCEUIL FTRDTDTRDUDUTDYT*/
+.bouton_afficher_plat{
+  text-decoration: none;
+  width:15%;
+  background-color: blue;
+  color: white;
+  margin-left:40% ;
+  border: none;
+  border-radius:10% ;
+}
+.bouton_afficher_plat a{
+  text-decoration: none;
+  color: white;
+}
+.Acezuil_defilement p{
+width: 80%;
+height: 300px;
+text-align: center;
+opacity: 0;
+}
+.Acezuil_defilement {
+margin-left: 15%;
+ animation:bgChange 20s infinite ease-in-out;
+ background-size: cover;
+ background-size: 80% 300px;
+background-image: url("https://cdn.pixabay.com/photo/2017/09/30/15/10/plate-2802332__340.jpg");
+background-repeat: no-repeat;
+}
+
+@keyframes bgChange{
+  0%{
+    background-image: url("https://cdn.pixabay.com/photo/2017/09/30/15/10/plate-2802332__340.jpg");
+    background-repeat: no-repeat;
+  }
+  20%{
+    background-image: url("https://cdn.pixabay.com/photo/2014/11/24/14/35/pot-544071__340.jpg");
+    background-repeat: no-repeat;
+  }
+  40%{
+    background-image: url("https://cdn.pixabay.com/photo/2019/04/02/04/32/masala-4096891__340.jpg");
+    background-repeat: no-repeat;
+  }
+  60%{
+    background-image: url("https://cdn.pixabay.com/photo/2014/08/12/23/36/mushrooms-417101__340.jpg");
+    background-repeat: no-repeat;
+  }
+  80%{
+    background-image: url("https://cdn.pixabay.com/photo/2021/02/08/12/40/lasagna-5994612__340.jpg");
+    background-repeat: no-repeat;
+  }
+  100%{
+    background-image: url("https://cdn.pixabay.com/photo/2016/03/05/09/22/eat-1237431__340.jpg");
+    background-repeat: no-repeat;
+  }
+}
+.acceuil_tabb_img{
+   width: 70px;
+   height: 70px;
+   float: left;
+   margin-right: 60px;
+}
+.acceuil_tabb_img + p{
+  margin-top: 10px;
+  color: white;
+}
+
+th{
+  color: rgb(109, 211, 50);
+  font-weight: 800;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+}
+#lien_dachat a{
+   text-decoration: none;
+   color: yellow;
+   padding-top: 2em;
+}
+/***********************ajouter un responsable**********/
+.page_ajouter_cuisto{
+margin-left: 25%;
+ background-size: cover;
+ background-size: 60% 300px;
+background-image: url("https://media.istockphoto.com/id/1341912063/fr/photo/portrait-dun-chef-heureux-travaillant-dans-un-restaurant-et-souriant.jpg?s=612x612&w=0&k=20&c=duJAJ_eKyldwPxF90NDXBvnttKoPMousVdw2ucj7jBU=");
+background-repeat: no-repeat;
+}
+.page_ajouter_cuisto p{
+width: 60%;
+height: 300px;
+text-align: center;
+opacity: 0;
+}
+
+/******************ajouter repas *************************************/
+#ajoutrepas input{
+    height: 100%;
+}
+#ajoutrepas{
+margin-bottom: 5%;
+}
+.affiche_respo-butt{
+border-radius: 20%;
+border: none;
+color: white;
+background-color: blue;
+padding-left:2% ;
+}
